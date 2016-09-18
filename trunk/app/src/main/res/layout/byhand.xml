@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/button3"
+            android:layout_alignBottom="@+id/button3"
+            android:layout_alignParentTop="true"
+            android:autoText="false"
+            android:contextClickable="false"
+            android:editable="true"
+            android:focusable="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:id="@+id/button3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:layout_width="272dp"
+            android:layout_height="295dp"
+            android:id="@+id/webView"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.75"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="回主畫面"
+            android:id="@+id/button4"
+            android:layout_marginTop="44dp"
+            android:layout_below="@+id/webView"
+            android:layout_alignStart="@+id/webView" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新增單字"
+            android:id="@+id/button5"
+            android:layout_alignTop="@+id/button4"
+            android:layout_alignEnd="@+id/webView"
+            android:background="@color/colorAccent" />
+    </RelativeLayout>
+
+</LinearLayout>

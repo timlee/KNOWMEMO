@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="學習單字"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="24dp"
+        android:id="@+id/button_learn" />
+
+    <Button
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="搜尋新增單字"
+        android:id="@+id/button_add"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:textSize="24dp" />
+
+    <Button
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="實力測驗"
+        android:id="@+id/button_test"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:textSize="24dp" />
+
+    <Button
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="時間設定"
+        android:id="@+id/button_setTime"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:textSize="24dp" />
+
+</LinearLayout>

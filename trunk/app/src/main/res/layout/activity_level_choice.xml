@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="184dp"
+        android:layout_height="68dp"
+        android:text="初級"
+        android:id="@+id/level_low"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material" />
+
+    <Button
+        android:layout_width="184dp"
+        android:layout_height="69dp"
+        android:text="中級"
+        android:id="@+id/button6"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material" />
+
+    <Button
+        android:layout_width="184dp"
+        android:layout_height="69dp"
+        android:text="高級"
+        android:id="@+id/button7"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material" />
+</LinearLayout>

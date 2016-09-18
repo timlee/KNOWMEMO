@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">KnowMemo</string>
+    <string name="menu_settings">設定</string>
+    <string name="title_activity_main">KnowMemo</string>
+    <string name="request">要求</string>
+    <string name="recall_word_meaning">點擊以顯示解釋和相關圖片</string>
+    <string name="finish_phase_learning">您已經完成這一格的學習</string>
+    <string name="grid"> 格</string>
+    <string name="click_to_next_box">點擊按鈕到下一個卡片箱學習</string>
+    <string name="finish_learning">完成學習</string>
+    <string name="post_to_facebook">分享到臉書</string>
+    <string name="OK">OK</string>
+    <string name="cancel">取消</string>
+    <string name="add_word">新增單字</string>
+    <string name="back">返回</string>
+    <string name="menu_dictionary">查字典</string>
+    <string name="Remember">記得</string>
+    <string name="Forget">忘記</string>  
+    <string name="no_speak">不發音</string>
+    <string name="speak">發音</string>
+    <string name="add_a_word">新增了單字</string>
+    
+    <item type="id" name="photo_tag">1</item>
+	
+
+</resources>

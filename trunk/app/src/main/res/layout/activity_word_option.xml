@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:touchscreenBlocksFocus="false"
+        android:gravity="center"
+        android:focusable="false">
+
+        <Button
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="手動搜尋新增單字"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.14"
+            android:textSize="18dp"
+            android:focusable="true"
+            android:singleLine="false"
+            android:background="@color/accent_material_dark" />
+
+        <Button
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="拍照新增搜尋單字"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.14"
+            android:background="@color/accent_material_dark"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:elevation="@dimen/abc_action_bar_icon_vertical_padding_material" />
+
+    </LinearLayout>
+
+</LinearLayout>
